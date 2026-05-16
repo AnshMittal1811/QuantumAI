@@ -1,0 +1,21 @@
+[project]
+name = "quantum-ai"
+version = "0.1.0"
+description = "136 Days of Quantum Generative Research"
+authors = [
+    { name = "Ansh Mittal", email = "anshm18111996@gmail.com" }
+]
+dependencies = [
+    "pennylane>=0.35.0",
+    "pennylane-lightning>=0.35.0",
+    "torch>=2.2.0",
+    "torchvision>=0.17.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.8.0",
+    "tqdm>=4.66.0",
+    "scipy>=1.11.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
